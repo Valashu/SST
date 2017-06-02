@@ -1,0 +1,26 @@
+THE GAME STARTS PAUSED, UNPAUSE WITH SPACE
+
+Up		-	Boost Forward
+Down		-	Boost Backward
+Left/Right	-	Turn Left/Right
+A/D		-	Boost Left/Right
+T		-	Activate Stabilizer
+Space		-	Pause/Tactical View(Shows Velocity lines and closest enemy)
+X		-	Fire Torpedo
+C		-	Fire Laser
+
+Evade Enemy Torpedos and Asteroids.
+
+Search and destroy Enemy ships.
+
+Win Condition: All Enemies are destroyed
+Loss Condition:	HP reach 0
+
+UI Elements:
+Red circle	-	Stabilizer, only visible if active, increases velocity and acceleration decay
+Blue Circle	-	Torpedo Ready, Possible to fire Torpedo with X, disappears until cooldown over
+Blue Rectangle	-	Laser Ready, Possible to fire Laserwith C, disappears until cooldown over
+Green Rectangle	-	Health bar, also shown as number over Rectangle. Don't let this reach 0
+Red Line	-	Velocity Line of connected Object. Only visible when Paused.
+Green Line	-	Line to nearest enemy. Only visible when paused
+
